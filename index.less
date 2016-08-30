@@ -1,0 +1,19 @@
+@import "~m-base/base/mixins";
+@import "~m-base/base/variables";
+
+@progress-background: @N1_1;
+@progress-foreground: @F4_1;
+.progress {
+    .margin(10, 0, 10, 0);
+    .height(4);
+    width: 100%;
+    background: @progress-background;
+    .progress-schedule {
+        height: 100%;
+        width: 0%;
+        background: @progress-foreground;
+        transition-property: width;
+        transition-duration: @transition-duration;
+        transition-timing-function: ease-out;
+    }
+}
