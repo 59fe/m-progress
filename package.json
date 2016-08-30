@@ -1,7 +1,7 @@
 {
   "name": "m-progress",
-  "version": "1.0.2",
-  "description": "m-progress 模拟ios原生select的选择器",
+  "version": "1.0.0",
+  "description": "m-progress 展示操作的当前进度",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
